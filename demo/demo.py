@@ -1,4 +1,12 @@
+"""
 # Copyright (c) Facebook, Inc. and its affiliates.
+
+shell command
+```
+python demo.py --config-file ../configs/COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml  --input 293.jpg 11.jpg --output output --opts MODEL.WEIGHTS detectron2://COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x/137849600/model_final_f10217.pkl
+```
+
+"""
 import argparse
 import glob
 import multiprocessing as mp
